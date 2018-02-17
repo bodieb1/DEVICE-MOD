@@ -1,0 +1,127 @@
+[16:08:09] [main/INFO]: Setting user: Player994
+[16:08:28] [main/INFO]: LWJGL Version: 2.9.2
+[16:08:46] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MrCrayfish's Device Mod
+[16:08:58] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:08:58] [main/ERROR]: ########## GL ERROR ##########
+[16:08:58] [main/ERROR]: @ Pre startup
+[16:08:58] [main/ERROR]: 1281: Invalid value
+[16:08:58] [Thread-4/INFO]: Initializing LWJGL OpenAL
+[16:08:58] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:08:59] [Thread-4/INFO]: OpenAL initialized.
+[16:08:59] [Sound Library Loader/INFO]: Sound engine started
+[16:09:18] [main/INFO]: Created: 1024x512 textures-atlas
+[16:09:39] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[16:10:08] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[16:10:08] [Server thread/INFO]: Generating keypair
+[16:10:12] [Server thread/INFO]: Loaded 488 advancements
+[16:10:16] [Server thread/INFO]: Preparing start region for level 0
+[16:10:17] [Server thread/INFO]: Preparing spawn area: 2%
+[16:10:18] [Server thread/INFO]: Preparing spawn area: 4%
+[16:10:19] [Server thread/INFO]: Preparing spawn area: 6%
+[16:10:20] [Server thread/INFO]: Preparing spawn area: 8%
+[16:10:21] [Server thread/INFO]: Preparing spawn area: 10%
+[16:10:22] [Server thread/INFO]: Preparing spawn area: 11%
+[16:10:23] [Server thread/INFO]: Preparing spawn area: 13%
+[16:10:24] [Server thread/INFO]: Preparing spawn area: 15%
+[16:10:25] [Server thread/INFO]: Preparing spawn area: 17%
+[16:10:26] [Server thread/INFO]: Preparing spawn area: 19%
+[16:10:27] [Server thread/INFO]: Preparing spawn area: 22%
+[16:10:28] [Server thread/INFO]: Preparing spawn area: 24%
+[16:10:29] [Server thread/INFO]: Preparing spawn area: 27%
+[16:10:30] [Server thread/INFO]: Preparing spawn area: 29%
+[16:10:32] [Server thread/INFO]: Preparing spawn area: 32%
+[16:10:33] [Server thread/INFO]: Preparing spawn area: 34%
+[16:10:34] [Server thread/INFO]: Preparing spawn area: 37%
+[16:10:35] [Server thread/INFO]: Preparing spawn area: 40%
+[16:10:36] [Server thread/INFO]: Preparing spawn area: 42%
+[16:10:37] [Server thread/INFO]: Preparing spawn area: 44%
+[16:10:38] [Server thread/INFO]: Preparing spawn area: 46%
+[16:10:39] [Server thread/INFO]: Preparing spawn area: 49%
+[16:10:40] [Server thread/INFO]: Preparing spawn area: 52%
+[16:10:41] [Server thread/INFO]: Preparing spawn area: 54%
+[16:10:42] [Server thread/INFO]: Preparing spawn area: 55%
+[16:10:43] [Server thread/INFO]: Preparing spawn area: 57%
+[16:10:44] [Server thread/INFO]: Preparing spawn area: 59%
+[16:10:45] [Server thread/INFO]: Preparing spawn area: 61%
+[16:10:47] [Server thread/INFO]: Preparing spawn area: 63%
+[16:10:48] [Server thread/INFO]: Preparing spawn area: 66%
+[16:10:49] [Server thread/INFO]: Preparing spawn area: 68%
+[16:10:50] [Server thread/INFO]: Preparing spawn area: 71%
+[16:10:51] [Server thread/INFO]: Preparing spawn area: 72%
+[16:10:53] [Server thread/INFO]: Preparing spawn area: 74%
+[16:10:54] [Server thread/INFO]: Preparing spawn area: 75%
+[16:10:55] [Server thread/INFO]: Preparing spawn area: 77%
+[16:10:56] [Server thread/INFO]: Preparing spawn area: 79%
+[16:10:57] [Server thread/INFO]: Preparing spawn area: 81%
+[16:10:58] [Server thread/INFO]: Preparing spawn area: 81%
+[16:10:59] [Server thread/INFO]: Preparing spawn area: 82%
+[16:11:00] [Server thread/INFO]: Preparing spawn area: 82%
+[16:11:01] [Server thread/INFO]: Preparing spawn area: 83%
+[16:11:02] [Server thread/INFO]: Preparing spawn area: 84%
+[16:11:04] [Server thread/INFO]: Preparing spawn area: 85%
+[16:11:05] [Server thread/INFO]: Preparing spawn area: 87%
+[16:11:06] [Server thread/INFO]: Preparing spawn area: 88%
+[16:11:07] [Server thread/INFO]: Preparing spawn area: 89%
+[16:11:08] [Server thread/INFO]: Preparing spawn area: 90%
+[16:11:09] [Server thread/INFO]: Preparing spawn area: 92%
+[16:11:10] [Server thread/INFO]: Preparing spawn area: 94%
+[16:11:11] [Server thread/INFO]: Preparing spawn area: 96%
+[16:11:12] [Server thread/INFO]: Preparing spawn area: 99%
+[16:11:14] [Server thread/INFO]: Changing view distance to 12, from 10
+[16:11:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8169ms behind, skipping 163 tick(s)
+[16:11:29] [Server thread/INFO]: Player994[local:E:8d8e7e3e] logged in with entity id 1233 at (-131.5, 67.0, 242.5)
+[16:11:29] [Server thread/INFO]: Player994 joined the game
+[16:11:40] [Server thread/INFO]: Saving and pausing game...
+[16:11:40] [Server thread/INFO]: Saving chunks for level 'New WorldTEST'/overworld
+[16:11:49] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@53b2212f[id=cf6fbb5f-ecf0-3695-8c0e-427c205e2096,name=Player994,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3188) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[16:11:53] [main/INFO]: Warning: Clientside chunk ticking took 105 ms
+[16:11:53] [Server thread/INFO]: Saving chunks for level 'New WorldTEST'/the_nether
+[16:11:53] [Server thread/INFO]: Saving chunks for level 'New WorldTEST'/the_end
+[16:12:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 33923ms behind, skipping 678 tick(s)
+[16:12:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9918ms behind, skipping 198 tick(s)
+[16:12:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 14546ms behind, skipping 290 tick(s)
+[16:12:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2049ms behind, skipping 40 tick(s)
+[16:13:06] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5093ms behind, skipping 101 tick(s)
+[16:13:30] [main/INFO]: Loaded 5 advancements
+[16:14:08] [main/INFO]: Warning: Clientside chunk ticking took 1010 ms
+[16:14:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2264ms behind, skipping 45 tick(s)
+[16:14:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 14656ms behind, skipping 293 tick(s)
+[16:14:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2853ms behind, skipping 57 tick(s)
+[16:15:08] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3282ms behind, skipping 65 tick(s)
+[16:21:54] [main/INFO]: Loaded 6 advancements
+[16:28:20] [Server thread/INFO]: [Player994: Set the time to 1000]
+[16:28:20] [main/INFO]: [CHAT] Set the time to 1000
+[16:31:11] [Server thread/INFO]: Saving and pausing game...
+[16:31:11] [Server thread/INFO]: Saving chunks for level 'New WorldTEST'/overworld
+[16:31:12] [Server thread/INFO]: Saving chunks for level 'New WorldTEST'/the_nether
+[16:31:12] [Server thread/INFO]: Saving chunks for level 'New WorldTEST'/the_end
+[16:31:15] [main/INFO]: Stopping!
+[16:31:15] [Server thread/INFO]: Stopping server
+[16:31:15] [Server thread/INFO]: Saving players
+[16:31:15] [Server thread/INFO]: Saving worlds
+[16:31:15] [Server thread/INFO]: Saving chunks for level 'New WorldTEST'/overworld
+[16:31:15] [Server thread/INFO]: Saving chunks for level 'New WorldTEST'/the_nether
+[16:31:15] [Server thread/INFO]: Saving chunks for level 'New WorldTEST'/the_end
+[16:31:17] [main/INFO]: SoundSystem shutting down...
+[16:31:18] [main/WARN]: Author: Paul Lamb, www.paulscode.com
