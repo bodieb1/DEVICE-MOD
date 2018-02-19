@@ -55,7 +55,7 @@ public class MrCrayfishDeviceMod
 
 	private static Logger logger;
 
-	public static final boolean DEVELOPER_MODE = true;
+	public static final boolean DEVELOPER_MODE = false;
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) throws LaunchException
@@ -63,6 +63,8 @@ public class MrCrayfishDeviceMod
 		if(DEVELOPER_MODE && !(Boolean) Launch.blackboard.get("fml.deobfuscatedEnvironment"))
 		{
 			throw new LaunchException();
+		} else {
+			logger.info("!NOT IN DEV MODE! THIS MAY CAUSE ERRORS");
 		}
 		logger = event.getModLog();
 
@@ -145,7 +147,7 @@ public class MrCrayfishDeviceMod
 
 		if(!DEVELOPER_MODE)
 		{
-			// Applications (Normal)
+			//Applications (Normal)
 			//ApplicationManager.registerApplication(new ResourceLocation(Reference.MOD_ID, "boat_racers"), ApplicationBoatRacers.class);
 			//ApplicationManager.registerApplication(new ResourceLocation(Reference.MOD_ID, "mine_bay"), ApplicationMineBay.class);
 
